@@ -1,0 +1,43 @@
+
+.rounded{
+    border-radius: 3%!important;
+}
+.w-40{
+    width: 80%;
+}
+.bg-brown{
+    background-color: #e76c38;
+}
+.text-brown{
+    color: #e76c38;
+}
+.rounded-box{
+    border-radius: 5px;
+}
+ol, .para{
+    font-size: 18px;
+}
+.bg-sand{
+    background-image: linear-gradient(to right, #eec877 , #e9b64b);
+}
+@media (min-width:992px) and (max-width:1200px){
+    .w-40{
+        width: 90%;
+    }
+}
+
+@media (min-width:720px) and (max-width:992px){
+    .w-40{
+        width: 50%;
+    }
+}
+@media (min-width:450px) and (max-width:720px){
+    .w-40{
+        width: 60%;
+    }
+}
+@media (max-width:470px){
+    .w-40{
+        width: 100%;
+    }
+}
