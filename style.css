@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+header{
+    color: white;
+    background-image: linear-gradient(to right, #4745456b, #5c5858),url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+header div{
+    text-align: center;
+    margin: 190px;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+h2{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+section h1{
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    background-color: brown;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: rgb(189, 116, 19);
+}
+
+.about{
+    display:flex; 
+    padding: 30px; 
+    justify-content: space-around;
+}
+
+.skill{
+    padding: 30px 30px 0 30px;
+    background-color: #f9f9f9;
+}
+
+.skill div{
+    margin-left: 50px;
+}
+
+.skill div div{
+    margin: auto 50px;
+    padding-right:40px;
+    text-align: justify;
+}
+
+#skills{
+    color: red;
+}
+
+input, a{
+    padding: 10px;
+}
+
+ol li:first-child{
+    color: orange;
+}
+
+.project{
+    background-color: rgb(234, 234, 248);
+    padding: 30px;
+    margin-bottom: 30px
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container div{
+    width: 20%;
+    margin: 0 20px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.container div img{
+    width: 100%;
+}
+
+.container div button{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.container div h4, .container div p{
+    padding: 10px;
+}
+
+.container div p{
+    margin-bottom: 15px;
+}
+
+.info{
+    margin: 20px;
+}
+.contact{
+    padding-bottom: 20px;
+}
+form{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+.form-group{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group input{
+    width: 70%;
+}
+
+textarea{
+    width: 74%;
+    resize: none;
+}
+
+input[type="submit"]{
+    background-color: navy;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.about *{
+    width: 50%; 
+    text-align: justify;
+}
+
+@media (max-width: 480px){
+    nav ul li{
+        margin: 2px;
+    }
+
+    header{
+        height: 60vh;
+    }
+
+    header div{
+        display: block;
+        margin: 170px auto;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about *{
+        width: 100%;
+    }
+}
